@@ -47,4 +47,9 @@ void display(int arr[], int n) {
     cout << "==================================" << endl;
     cout << "Element Array yang telah tersusun" << endl;
     cout << "==================================" << endl;
-  
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
