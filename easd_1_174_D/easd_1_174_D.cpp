@@ -57,5 +57,6 @@ int main() {
     input();
     selectionSort(a, n);
     display(a, n);
+    return 0;
 }
 
