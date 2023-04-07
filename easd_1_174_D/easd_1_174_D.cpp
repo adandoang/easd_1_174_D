@@ -8,14 +8,14 @@
 #include <iostream>
 using namespace std;
 
-int a[94];
-int n;
+int A[94];
+int J;
 
 void input() {
     while (true) {
         cout << "Masukan banyaknya elemen pada array : ";
-        cin >> n;
-        if (n <= 20)
+        cin >> J;
+        if (J <= 20)
             break;
         else {
             cout << "\nArray dapat mempunyai maksimal 94 elemen\n";
@@ -24,8 +24,8 @@ void input() {
     cout << endl;
 
     cout << "\nmasukan bilangan:" << endl;
-    for (int j = 0; j < n; j++) {
-        cin >> a[j];
+    for (int j = 0; j < J; j++) {
+        cin >> A[j];
     }
 }
 
@@ -55,8 +55,8 @@ void display(int arr[], int n) {
 
 int main() {
     input();
-    selectionSort(a, n);
-    display(a, n);
+    selectionSort(A, J);
+    display(A, J);
     return 0;
 }
 
