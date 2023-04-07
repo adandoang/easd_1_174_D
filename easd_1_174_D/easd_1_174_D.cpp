@@ -2,3 +2,13 @@
 // 2. struktur statik dan dinamik
 // 3. penggunaan memori, jumlah input data, jumlah operasi, jenis algoritma, kemampuan komputer, bahasa pemrograman
 // 4. insertionsort, karena hanya ada satu perulangan untuk setiap elemen data, sehingga jumlah operasi yang diperlukan untuk mengurutkan data relatif sedikit
+// 5. bubblesort, insertionsort, dan selectionsort
+// 6. 
+
+#include <iostream>
+using namespace std;
+
+int a[94];
+int n;
+
+
