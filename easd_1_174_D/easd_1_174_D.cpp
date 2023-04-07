@@ -29,4 +29,17 @@ void input() {
     }
 }
 
+void selectionSort(int arr[], int n) {
+    for (int AJ = 0; AJ < n - 1; AJ++) {
+        int min_index = AJ;
+        for (int i = AJ + 1; i < n; i++) {
+            if (arr[i] < arr[min_index]) {
+                min_index = i;
+            }
+        }
+        int temp = arr[AJ];
+        arr[AJ] = arr[min_index];
+        arr[min_index] = temp;
+    }
+}
 
