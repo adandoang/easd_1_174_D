@@ -23,4 +23,10 @@ void input() {
     }
     cout << endl;
 
-   
+    cout << "\nmasukan bilangan:" << endl;
+    for (int j = 0; j < n; j++) {
+        cin >> a[j];
+    }
+}
+
+
