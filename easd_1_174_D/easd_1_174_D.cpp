@@ -53,3 +53,9 @@ void display(int arr[], int n) {
     cout << endl;
 }
 
+int main() {
+    input();
+    selectionSort(a, n);
+    display(a, n);
+}
+
